@@ -1,3 +1,2 @@
 '''Contents'''
-* [[Home | Concord-BFT Wiki]]
-* [[RocksDB-Overview | Overview]]
+* [[Contributing to Concord-BFT](https://github.com/facebook/rocksdb/wiki#contributing-to-rocksdb)]]
