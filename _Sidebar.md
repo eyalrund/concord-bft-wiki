@@ -1,2 +1,4 @@
-'''Contents'''
-* [[Contributing to Concord-BFT](https://github.com/facebook/rocksdb/wiki#contributing-to-rocksdb)]]
+'Contents'
+* [Getting Started](https://github.com/eyalrund/concord-bft/blob/readme/CONTRIBUTING.md)
+* [Contributing to Concord-BFT](https://github.com/eyalrund/concord-bft/blob/readme/CONTRIBUTING.md)
+
