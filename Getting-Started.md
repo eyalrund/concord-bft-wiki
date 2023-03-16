@@ -54,9 +54,6 @@ done by passing arguments to cmake with a `-D` prefix: e.g. `cmake -DBUILD_TESTI
 make must be run afterwards to build according to the configuration. Please see [CMakeLists.txt](https://github.com/vmware/concord-bft/blob/master/CMakeLists.txt) for configurable options.
 
 #### Select Communication Module
-One option that is worth calling out explicitly is the communication (transport) library.
-
-#### Select Communication Module
 One option that is worth calling out explicitly is the communication (transport) library. Transport defaults to TLS and can be configured explicitly by setting the `CONCORD_BFT_CMAKE_TRANSPORT` flag. The flag defaults to **TLS**, but also supports **UDP** and **TCP**. These can be useful because the use of pinned certificates for TLS requires an out of band setup.
 As we used pinned certificates for TLS, the user will have to manually provide these. They can use the [create_tls_certs.sh](https://github.com/vmware/concord-bft/blob/master/scripts/linux/create_tls_certs.sh) script as an example.
 
@@ -76,7 +73,6 @@ directory for native builds, and `CONCORD_BFT_CMAKE_BUILD_TESTING=TRUE make` for
 The python client requires python3(>= 3.5) and trio, which is installed via pip.
 
     python3 -m pip install --upgrade trio
-
 
 #### Adding a new dependency or tool
 
