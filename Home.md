@@ -10,3 +10,14 @@ Project Concord’s BFT engine obtains significant scaling improvements via thre
 2. It exploits optimism to provide a common case fast-path execution (like [Zyzzyva ](https://dl.acm.org/citation.cfm?id=1658358)and with a correct view change protocol)
 3. It uses modern cryptographic algorithms (BLS threshold signatures)
 More details about the BFT consensus protocol can be found in the recent paper, “[SBFT: A Scalable Decentralized Trust Infrastructure for Blockchains](https://arxiv.org/pdf/1804.01626.pdf).
+
+
+## Community
+
+[Concord-BFT Slack](https://concordbft.slack.com/).
+
+Request a Slack invitation via <concordbft@gmail.com>.
+
+## License
+
+concord-bft is available under the [Apache 2 license](LICENSE).
