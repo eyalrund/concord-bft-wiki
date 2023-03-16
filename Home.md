@@ -1,4 +1,4 @@
-Welcome to the concord-bft wiki!
+**Welcome to the concord-bft wiki!**
 
 Project Concord uses Byzantine fault-tolerant consensus protocols to deliver a functioning distributed trust system: one that is both “safe” and “alive.” Concord is a generic state machine replication library that can handle malicious (Byzantine) replicas.
 
