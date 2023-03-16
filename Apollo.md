@@ -14,7 +14,7 @@ Various crash or byzantine failure scenarios are also covered
 
 Apollo test suites run regularly as part of Concord BFT's continuous integration pipeline.
 
-Please find more details about the Apollo framework [here](tests/apollo/README.md)
+Please find more details about the Apollo framework [here](https://github.com/vmware/concord-bft/blob/master/tests/apollo/README.md)
 
 ## Run examples
 
@@ -32,7 +32,7 @@ Run the following from the top level concord-bft directory:
 
 You can use the simpleTest.py script to run various configurations via a simple
 command line interface.
-Please find more information [here](./tests/simpleTest/README.md)
+Please find more information [here](https://github.com/vmware/concord-bft/blob/master/tests/simpleTest/README.md)
 
 ### Example application
 This example demo application shows some capabilities of the Concord-BFT consensus-based byzantine fault-tolerant state machine replication library.
@@ -40,7 +40,7 @@ For Concord-BFT users who are interested in learning more about Concord-BFT and 
 Overall, any blockchain application based on concord-bft consensus may be created using this example application.
 <br>
 
-Use the [test_example.sh](example/scripts/test_example.sh) script to run the example application. This script is also used to perform this demo via the command line interface with different configurations.
+Use the [test_osexample.sh](https://github.com/vmware/concord-bft/blob/readme/examples/scripts/test_osexample.sh) script to run the example application. This script is also used to perform this demo via the command line interface with different configurations.
 <br>
 
-Please see [here](example/README.md) for more information about the example/demo application.
+Please see [here](https://github.com/vmware/concord-bft/blob/master/examples/README.md) for more information about the examples/demo application.
