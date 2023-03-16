@@ -30,7 +30,7 @@ make CONCORD_BFT_CONTAINER_CXX=g++ \
     build
 ```
 
-Other build options, including passthrough options for CMake, are defined in the Makefile and prefixed with `CONCORD_BFT_`. Variables that are capable of being overridden on the command line are set with the Make conditional operator `?=` and are at the beginning of [Makefile](Makefile). Please check that file for options.
+Other build options, including passthrough options for CMake, are defined in the Makefile and prefixed with `CONCORD_BFT_`. Variables that are capable of being overridden on the command line are set with the Make conditional operator `?=` and are at the beginning of [Makefile](https://github.com/vmware/concord-bft/blob/master/Makefile). Please check that file for options.
 
 ### Native Build
 
