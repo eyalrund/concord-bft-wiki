@@ -11,6 +11,8 @@ Project Concord’s BFT engine obtains significant scaling improvements via thre
 3. It uses modern cryptographic algorithms (BLS threshold signatures)
 More details about the BFT consensus protocol can be found in the recent paper, “[SBFT: A Scalable Decentralized Trust Infrastructure for Blockchains](https://arxiv.org/pdf/1804.01626.pdf).
 
+## General Resources
+[Official Site](https://projectconcord.io/)
 
 ## Community
 
