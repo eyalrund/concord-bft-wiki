@@ -12,12 +12,12 @@ Project Concord’s BFT engine obtains significant scaling improvements via thre
 More details about the BFT consensus protocol can be found in the recent paper, “[SBFT: A Scalable Decentralized Trust Infrastructure for Blockchains](https://arxiv.org/pdf/1804.01626.pdf).
 
 ## General Resources
-[Official Site](https://projectconcord.io/)
+[Official Site](https://projectconcord.io/) - read about the library, News & Events and community. 
 
 ## Community
 
-[Concord-BFT Slack](https://concordbft.slack.com/).
-
+Follow us at: [@project_concord](https://www.twitter.com/@project_concord)
+Chat with us at: [concordbft.slack.com](https://concordbft.slack.com/)
 Request a Slack invitation via <concordbft@gmail.com>.
 
 ## License
