@@ -2,7 +2,9 @@ We detail the minimum requirements for compiling Concord-BFT
 
 ## Compiling
 ## All platforms
-* 
+* Tools:
+    * [clang-tidy] (https://clang.llvm.org)
+
 ## Linux
 * **Architecture**: x86 / x86_64 / arm64 / ppc64le / s390x
 * **C/C++ Compiler**: GCC 4.8+ or Clang
