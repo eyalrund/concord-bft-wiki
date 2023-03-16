@@ -51,14 +51,14 @@ CC=clang CXX=clang++ cmake ..
 
 In order to turn on or off various options, you need to change your cmake configuration. This is
 done by passing arguments to cmake with a `-D` prefix: e.g. `cmake -DBUILD_TESTING=OFF`. Note that
-make must be run afterwards to build according to the configuration. Please see [CMakeLists.txt](CMakeLists.txt) for configurable options.
+make must be run afterwards to build according to the configuration. Please see [CMakeLists.txt](https://github.com/vmware/concord-bft/blob/master/CMakeLists.txt) for configurable options.
 
 #### Select Communication Module
 One option that is worth calling out explicitly is the communication (transport) library.
 
 #### Select Communication Module
 One option that is worth calling out explicitly is the communication (transport) library. Transport defaults to TLS and can be configured explicitly by setting the `CONCORD_BFT_CMAKE_TRANSPORT` flag. The flag defaults to **TLS**, but also supports **UDP** and **TCP**. These can be useful because the use of pinned certificates for TLS requires an out of band setup.
-As we used pinned certificates for TLS, the user will have to manually provide these. They can use the [create_tls_certs.sh](scripts/linux/create_tls_certs.sh) script as an example.
+As we used pinned certificates for TLS, the user will have to manually provide these. They can use the [create_tls_certs.sh](https://github.com/vmware/concord-bft/blob/master/scripts/linux/create_tls_certs.sh) script as an example.
 
 //EEE is the default different for native?
 We support both UDP and TCP communication. UDP is the default. In order to
