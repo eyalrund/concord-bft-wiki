@@ -17,8 +17,9 @@ More details about the BFT consensus protocol can be found in the recent paper, 
 ## Community
 
 Follow us at: [@project_concord](https://www.twitter.com/@project_concord)
+
 Chat with us at: [concordbft.slack.com](https://concordbft.slack.com/)
-Request a Slack invitation via <concordbft@gmail.com>.
+Request a Slack invitation via <concordbft@gmail.com>
 
 ## License
 
